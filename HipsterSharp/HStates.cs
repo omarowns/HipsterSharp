@@ -1,0 +1,23 @@
+using System;
+
+namespace HipsterSharp
+{
+	public enum HStates
+	{
+		IN_START,
+
+		IN_ADD,		IN_MINUS,	IN_MULT,	IN_DIV,
+		IN_LT,		IN_LET,		IN_GT,		IN_GET,
+		IN_COMPARE,	IN_DIFF,	IN_EQUAL,
+		IN_SEMICOLON,	IN_COMMA,
+		IN_LPAREN,	IN_RPAREN,	IN_CLPAREN,	IN_CRPAREN,
+		IN_INITBLOCKCOMMENT,	IN_ENDBLOCKCOMMENT,
+		IN_LINECOMMENT,
+
+		IN_ID,		IN_NUM,
+		IN_EOF,		IN_ERROR,
+
+		IN_DONE
+	}
+}
+

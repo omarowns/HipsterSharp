@@ -1,0 +1,25 @@
+using System;
+
+namespace HipsterSharp
+{
+	//if then else fi do until while read write
+	//float int bool program
+	public enum HTokenTypes
+	{
+		TKN_IF,		TKN_THEN,	TKN_ELSE,	TKN_FI,	TKN_DO,
+		TKN_UNTIL,	TKN_WHILE,	TKN_READ,	TKN_WRITE,
+		TKN_FLOAT,	TKN_INT,	TKN_BOOL,	TKN_PROGRAM,
+
+		TKN_ADD,  	TKN_MINUS,	TKN_MULT,	TKN_DIV,
+		TKN_LT,		TKN_LET,	TKN_GT,		TKN_GET,
+		TKN_COMPARE,TKN_DIFF,	TKN_EQUAL,
+		TKN_SEMICOLON,			TKN_COMMA,
+		TKN_LPAREN, TKN_RPAREN,	TKN_CLPAREN,TKN_CRPAREN,
+		TKN_INITBLOCKCOMMENT,	TKN_ENDBLOCKCOMMENT,
+		TKN_LINECOMMENT,
+
+		TKN_ID,		TKN_NUM,
+		TKN_EOF,	TKN_ERROR
+	}
+}
+

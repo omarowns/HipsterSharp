@@ -1,0 +1,8 @@
+program1{}
+
+program{
+	int main(char[] args){
+		int z = 1 + 1;
+		int x = 2 + 2;
+	}
+}

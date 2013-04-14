@@ -1,0 +1,5 @@
+public static void main( int arg, char[] args){
+	int x = 0;
+	int y = x*2; int z = y;
+	int x = z/y;
+}
